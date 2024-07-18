@@ -1,0 +1,52 @@
+/* src/components/HeroSection.css */
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 4rem 1rem;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../../public/college.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 1000px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Ensure text is visible over the image */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.5); /* Optional: add background to text */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #ddd;
+  background: rgba(0, 0, 0, 0.5); /* Optional: add background to text */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+.hero.mobile {
+  padding: 2rem 1rem;
+  height: auto;
+  background-size: cover;
+}
+
+.hero.mobile h1 {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.hero.mobile p {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+    

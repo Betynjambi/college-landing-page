@@ -1,0 +1,55 @@
+/* src/components/About.css */
+.about {
+    padding: 4rem 1rem;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.about-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+}
+
+.about-item h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-item p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    .about-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-item {
+        width: 30%;
+    }
+}
